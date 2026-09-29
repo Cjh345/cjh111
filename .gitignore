@@ -1,0 +1,24 @@
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editors and local settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+.tmp/
+tmp/
+
+# Dependencies and build output (if added later)
+node_modules/
+dist/
+build/
+
+# Local environment files; never commit secrets
+.env
+.env.*
+!.env.example
